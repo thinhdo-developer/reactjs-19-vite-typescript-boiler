@@ -1,0 +1,4 @@
+export const STORAGE_KEYS = {
+  TOKEN: "TOKEN",
+  REFRESH_TOKEN: "REFRESH_TOKEN",
+};

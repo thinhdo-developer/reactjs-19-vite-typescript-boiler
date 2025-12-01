@@ -1,0 +1,12 @@
+node_modules
+dist
+dev-dist
+build
+coverage
+*.tsbuildinfo
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.vscode
+.idea
+
