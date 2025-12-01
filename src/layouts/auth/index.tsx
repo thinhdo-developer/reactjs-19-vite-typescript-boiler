@@ -10,11 +10,11 @@ const AuthLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="w-full max-w-md">
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
-              <div className="flex items-center justify-center shadow-lg">
+              <div className="flex items-center justify-center">
                 <img
                   src="/logo.png"
                   alt="TikTak Logo"
-                  className="w-40 h-full object-contain rounded-2xl"
+                  className="w-30 sm:w-40 h-full object-contain rounded-2xl"
                 />
               </div>
             </div>

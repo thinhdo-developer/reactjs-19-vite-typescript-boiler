@@ -21,7 +21,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.jpg"
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.png"
   },
   "dependencies": {
     "@floating-ui/react": "^0.27.16",
