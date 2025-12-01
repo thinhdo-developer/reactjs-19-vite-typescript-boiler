@@ -1,7 +1,8 @@
 import { Navigate, useRoutes } from "react-router-dom";
+import { PATHS } from "./paths";
 import { authRoutes } from "./sections/auth";
-import { mainRoutes } from "./sections/main";
 import { commonRoutes } from "./sections/common";
+import { mainRoutes } from "./sections/main";
 
 // ----------------------------------------------------------------------
 
@@ -17,6 +18,6 @@ export default function Router() {
     ...authRoutes,
 
     // No match 404
-    { path: "*", element: <Navigate to="/404" replace /> },
+    { path: "*", element: <Navigate to={PATHS.PUBLIC.NOT_FOUND} replace /> },
   ]);
 }

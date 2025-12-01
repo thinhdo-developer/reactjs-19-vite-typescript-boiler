@@ -1,0 +1,177 @@
+{
+  "auth": {
+    "login": {
+      "title": "Đăng nhập vào tài khoản",
+      "subtitle": "Nhập thông tin đăng nhập để truy cập tài khoản của bạn",
+      "form": {
+        "username": {
+          "label": "Tên đăng nhập",
+          "placeholder": "Nhập tên đăng nhập"
+        },
+        "password": {
+          "label": "Mật khẩu",
+          "placeholder": "Nhập mật khẩu"
+        },
+        "rememberMe": {
+          "label": "Ghi nhớ đăng nhập"
+        },
+        "forgotPassword": {
+          "link": "Quên mật khẩu?"
+        },
+        "submit": "Đăng nhập",
+        "noAccount": "Chưa có tài khoản?",
+        "registerLink": "Đăng ký"
+      },
+      "validation": {
+        "username": {
+          "required": "Tên đăng nhập là bắt buộc",
+          "minLength": "Tên đăng nhập phải có ít nhất 3 ký tự"
+        },
+        "password": {
+          "required": "Mật khẩu là bắt buộc",
+          "minLength": "Mật khẩu phải có ít nhất 6 ký tự"
+        }
+      }
+    },
+    "register": {
+      "title": "Tạo tài khoản",
+      "subtitle": "Đăng ký để bắt đầu"
+    },
+    "forgotPassword": {
+      "title": "Quên mật khẩu?",
+      "subtitle": "Nhập địa chỉ email của bạn và chúng tôi sẽ gửi mã OTP để đặt lại mật khẩu",
+      "info": "Chúng tôi sẽ gửi mã xác minh đến địa chỉ email của bạn nếu tài khoản tồn tại.",
+      "form": {
+        "email": {
+          "label": "Địa chỉ email",
+          "placeholder": "Nhập địa chỉ email của bạn"
+        },
+        "submit": "Gửi mã OTP",
+        "backToLogin": "Quay lại đăng nhập",
+        "noAccount": "Chưa có tài khoản?",
+        "registerLink": "Đăng ký"
+      },
+      "validation": {
+        "email": {
+          "required": "Địa chỉ email là bắt buộc",
+          "invalid": "Vui lòng nhập địa chỉ email hợp lệ"
+        }
+      }
+    },
+    "verifyOtp": {
+      "title": "Xác minh OTP",
+      "subtitle": "Nhập mã {length} chữ số được gửi đến {email}",
+      "info": "Vui lòng kiểm tra email của bạn để lấy mã xác minh. Nhập mã bên dưới để tiếp tục.",
+      "form": {
+        "email": {
+          "label": "Địa chỉ email"
+        },
+        "otp": {
+          "label": "Mã xác minh",
+          "placeholder": "Nhập mã {length} chữ số"
+        },
+        "didntReceive": "Không nhận được mã?",
+        "resend": "Gửi lại mã",
+        "resendCooldown": "Gửi lại sau {seconds}s",
+        "submit": "Xác minh",
+        "back": "Quay lại quên mật khẩu"
+      },
+      "validation": {
+        "email": {
+          "required": "Địa chỉ email là bắt buộc",
+          "invalid": "Vui lòng nhập địa chỉ email hợp lệ"
+        },
+        "otp": {
+          "required": "Mã xác minh là bắt buộc",
+          "length": "Mã xác minh phải có {length} chữ số"
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Đặt lại mật khẩu",
+      "subtitle": "Nhập mật khẩu mới của bạn bên dưới",
+      "form": {
+        "newPassword": {
+          "label": "Mật khẩu mới",
+          "placeholder": "Nhập mật khẩu mới"
+        },
+        "confirmPassword": {
+          "label": "Xác nhận mật khẩu",
+          "placeholder": "Xác nhận mật khẩu mới"
+        },
+        "passwordRequirements": {
+          "title": "Yêu cầu mật khẩu",
+          "minLength": "Ít nhất {length} ký tự",
+          "uppercase": "Một chữ cái viết hoa",
+          "lowercase": "Một chữ cái viết thường",
+          "number": "Một số",
+          "special": "Một ký tự đặc biệt"
+        },
+        "submit": "Đặt lại mật khẩu",
+        "backToLogin": "Quay lại đăng nhập"
+      },
+      "validation": {
+        "newPassword": {
+          "required": "Mật khẩu mới là bắt buộc",
+          "minLength": "Mật khẩu phải có ít nhất {length} ký tự",
+          "uppercase": "Mật khẩu phải chứa ít nhất một chữ cái viết hoa",
+          "lowercase": "Mật khẩu phải chứa ít nhất một chữ cái viết thường",
+          "number": "Mật khẩu phải chứa ít nhất một số",
+          "special": "Mật khẩu phải chứa ít nhất một ký tự đặc biệt"
+        },
+        "confirmPassword": {
+          "required": "Vui lòng xác nhận mật khẩu",
+          "match": "Mật khẩu không khớp"
+        }
+      },
+      "success": {
+        "title": "Đặt lại mật khẩu thành công!",
+        "message": "Mật khẩu của bạn đã được đặt lại thành công. Bạn sẽ được chuyển hướng đến trang đăng nhập.",
+        "backToLogin": "Đi đến đăng nhập"
+      }
+    }
+  },
+  "error": {
+    "403": {
+      "title": "Truy Cập Bị Từ Chối",
+      "description": "Bạn không có quyền truy cập tài nguyên này. Vui lòng liên hệ với quản trị viên nếu bạn cho rằng đây là lỗi.",
+      "tip": "Nếu bạn nghĩ rằng mình nên có quyền truy cập, vui lòng kiểm tra với quản trị viên hoặc thử đăng nhập bằng tài khoản khác.",
+      "actions": {
+        "goHome": "Về Trang Chủ",
+        "goBack": "Quay Lại"
+      },
+      "help": {
+        "text": "Cần trợ giúp?",
+        "loginLink": "Thử đăng nhập lại"
+      }
+    },
+    "404": {
+      "title": "Không Tìm Thấy Trang",
+      "description": "Xin lỗi, chúng tôi không thể tìm thấy trang bạn đang tìm kiếm. Trang có thể đã được di chuyển, xóa hoặc URL có thể không chính xác.",
+      "suggestions": {
+        "title": "Bạn có thể làm:",
+        "checkUrl": "Kiểm tra URL xem có lỗi chính tả không",
+        "useSearch": "Sử dụng chức năng tìm kiếm để tìm những gì bạn cần",
+        "visitHome": "Quay lại trang chủ và điều hướng từ đó"
+      },
+      "actions": {
+        "goHome": "Về Trang Chủ",
+        "goBack": "Quay Lại"
+      }
+    },
+    "500": {
+      "title": "Lỗi Máy Chủ",
+      "description": "Đã xảy ra lỗi ở phía chúng tôi. Chúng tôi đang làm việc để khắc phục sự cố. Vui lòng thử lại sau vài phút.",
+      "info": "Lỗi này đã được ghi lại và nhóm của chúng tôi đã được thông báo. Nếu vấn đề vẫn tiếp tục, vui lòng liên hệ hỗ trợ.",
+      "actions": {
+        "refresh": "Làm Mới Trang",
+        "goHome": "Về Trang Chủ",
+        "goBack": "Quay Lại"
+      },
+      "support": {
+        "text": "Nếu vấn đề này vẫn tiếp tục, vui lòng liên hệ với nhóm hỗ trợ của chúng tôi.",
+        "contact": "Chúng tôi xin lỗi vì sự bất tiện này."
+      }
+    }
+  }
+}

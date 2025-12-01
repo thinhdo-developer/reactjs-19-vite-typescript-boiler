@@ -24,6 +24,7 @@
     "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.jpg"
   },
   "dependencies": {
+    "@floating-ui/react": "^0.27.16",
     "@reduxjs/toolkit": "^2.3.0",
     "@tailwindcss/postcss": "4.1.17",
     "@tailwindcss/vite": "^4.1.17",

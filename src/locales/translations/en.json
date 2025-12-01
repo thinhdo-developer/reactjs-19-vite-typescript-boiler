@@ -1,3 +1,178 @@
 {
-  "title": "Hello, World!"
+  "title": "Hello, World!",
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "subtitle": "Enter your credentials to access your account",
+      "form": {
+        "username": {
+          "label": "Username",
+          "placeholder": "Enter your username"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter your password"
+        },
+        "rememberMe": {
+          "label": "Remember me"
+        },
+        "forgotPassword": {
+          "link": "Forgot password?"
+        },
+        "submit": "Sign in",
+        "noAccount": "Don't have an account?",
+        "registerLink": "Sign up"
+      },
+      "validation": {
+        "username": {
+          "required": "Username is required",
+          "minLength": "Username must be at least 3 characters"
+        },
+        "password": {
+          "required": "Password is required",
+          "minLength": "Password must be at least 6 characters"
+        }
+      }
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Sign up to get started"
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "subtitle": "Enter your email address and we'll send you an OTP code to reset your password",
+      "info": "We'll send a verification code to your email address if an account exists.",
+      "form": {
+        "email": {
+          "label": "Email address",
+          "placeholder": "Enter your email address"
+        },
+        "submit": "Send OTP",
+        "backToLogin": "Back to login",
+        "noAccount": "Don't have an account?",
+        "registerLink": "Sign up"
+      },
+      "validation": {
+        "email": {
+          "required": "Email address is required",
+          "invalid": "Please enter a valid email address"
+        }
+      }
+    },
+    "verifyOtp": {
+      "title": "Verify OTP",
+      "subtitle": "Enter the {length}-digit code sent to {email}",
+      "info": "Please check your email for the verification code. Enter it below to continue.",
+      "form": {
+        "email": {
+          "label": "Email address"
+        },
+        "otp": {
+          "label": "Verification code",
+          "placeholder": "Enter {length}-digit code"
+        },
+        "didntReceive": "Didn't receive the code?",
+        "resend": "Resend code",
+        "resendCooldown": "Resend in {seconds}s",
+        "submit": "Verify",
+        "back": "Back to forgot password"
+      },
+      "validation": {
+        "email": {
+          "required": "Email address is required",
+          "invalid": "Please enter a valid email address"
+        },
+        "otp": {
+          "required": "Verification code is required",
+          "length": "Verification code must be {length} digits"
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Reset your password",
+      "subtitle": "Enter your new password below",
+      "form": {
+        "newPassword": {
+          "label": "New password",
+          "placeholder": "Enter your new password"
+        },
+        "confirmPassword": {
+          "label": "Confirm password",
+          "placeholder": "Confirm your new password"
+        },
+        "passwordRequirements": {
+          "title": "Password requirements",
+          "minLength": "At least {length} characters",
+          "uppercase": "One uppercase letter",
+          "lowercase": "One lowercase letter",
+          "number": "One number",
+          "special": "One special character"
+        },
+        "submit": "Reset password",
+        "backToLogin": "Back to login"
+      },
+      "validation": {
+        "newPassword": {
+          "required": "New password is required",
+          "minLength": "Password must be at least {length} characters",
+          "uppercase": "Password must contain at least one uppercase letter",
+          "lowercase": "Password must contain at least one lowercase letter",
+          "number": "Password must contain at least one number",
+          "special": "Password must contain at least one special character"
+        },
+        "confirmPassword": {
+          "required": "Please confirm your password",
+          "match": "Passwords do not match"
+        }
+      },
+      "success": {
+        "title": "Password reset successful!",
+        "message": "Your password has been reset successfully. You will be redirected to the login page.",
+        "backToLogin": "Go to login"
+      }
+    }
+  },
+  "error": {
+    "403": {
+      "title": "Access Forbidden",
+      "description": "You don't have permission to access this resource. Please contact your administrator if you believe this is an error.",
+      "tip": "If you think you should have access, please check with your administrator or try logging in with a different account.",
+      "actions": {
+        "goHome": "Go to Home",
+        "goBack": "Go Back"
+      },
+      "help": {
+        "text": "Need help?",
+        "loginLink": "Try logging in again"
+      }
+    },
+    "404": {
+      "title": "Page Not Found",
+      "description": "Sorry, we couldn't find the page you're looking for. It might have been moved, deleted, or the URL might be incorrect.",
+      "suggestions": {
+        "title": "What you can do:",
+        "checkUrl": "Check the URL for typos or errors",
+        "useSearch": "Use the search function to find what you need",
+        "visitHome": "Return to the homepage and navigate from there"
+      },
+      "actions": {
+        "goHome": "Go to Home",
+        "goBack": "Go Back"
+      }
+    },
+    "500": {
+      "title": "Internal Server Error",
+      "description": "Something went wrong on our end. We're working to fix the issue. Please try again in a few moments.",
+      "info": "This error has been logged and our team has been notified. If the problem persists, please contact support.",
+      "actions": {
+        "refresh": "Refresh Page",
+        "goHome": "Go to Home",
+        "goBack": "Go Back"
+      },
+      "support": {
+        "text": "If this problem continues, please contact our support team.",
+        "contact": "We apologize for the inconvenience."
+      }
+    }
+  }
 }

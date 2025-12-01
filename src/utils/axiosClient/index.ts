@@ -1,14 +1,14 @@
 import axios, {
   type AxiosError,
   type AxiosInstance,
-  type AxiosResponse,
   type AxiosRequestConfig,
+  type AxiosResponse,
 } from "axios";
 
+import { HOST_API_URL } from "@configs/env";
 import configRequest from "./interceptor/request/config";
 import configResponse from "./interceptor/response/config";
 import { IAxiosPromise } from "./type";
-import { HOST_API_URL } from "@configs/env";
 
 class AxiosService {
   axios: AxiosInstance;
@@ -16,6 +16,7 @@ class AxiosService {
   constructor(url: string) {
     this.axios = axios.create({
       baseURL: url,
+      timeout: 30000, // 30 seconds default timeout
       headers: {
         "content-type": "application/json",
       },
